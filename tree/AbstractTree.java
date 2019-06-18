@@ -1,6 +1,7 @@
-package basics.tree;
+package tree;
+
 import basics.Position;
-import basics.tree.Tree;
+import tree.Tree;
 
 public abstract class AbstractTree<E> implements Tree<E> {
     public boolean isInternal(Position<E> p) { return numChildren(p) > 0; }

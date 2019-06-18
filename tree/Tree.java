@@ -1,4 +1,5 @@
-package basics.tree;
+package tree;
+
 import java.util.Iterator;
 import basics.Position;
 
